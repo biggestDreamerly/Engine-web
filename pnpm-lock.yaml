@@ -23,6 +23,9 @@ dependencies:
   '@webgpu/types':
     specifier: ^0.1.32
     version: 0.1.32
+  gl-matrix:
+    specifier: ^3.4.3
+    version: 3.4.3
   typescript:
     specifier: ^5.1.6
     version: 5.1.6
@@ -309,6 +312,10 @@ packages:
     requiresBuild: true
     dev: false
     optional: true
+
+  /gl-matrix@3.4.3:
+    resolution: {integrity: sha512-wcCp8vu8FT22BnvKVPjXa/ICBWRq/zjFfdofZy1WSpQZpphblv12/bOQLBC1rMM7SGOFS9ltVmKOHil5+Ml7gA==}
+    dev: false
 
   /lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
